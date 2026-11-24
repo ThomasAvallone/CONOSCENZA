@@ -28,7 +28,7 @@ Questo repository contiene solo puntatori: niente dati aziendali, mail, chiavi o
 |---|---|---|---|
 | App-calcetto | App del calcetto (statistiche SIRO), con audit giornalieri in `audit-reports/` | github.com/ThomasAvallone/App-calcetto | README vuoto |
 | Motion-Graphics-Calcetto | Grafiche broadcast per i video di calcetto 5v5 per Final Cut Pro | github.com/ThomasAvallone/Motion-Graphics-Calcetto | `npm install`, poi `node partita.mjs partita.json`. Playwright e ffmpeg. Skill `calcetto-motion` |
-| calcettocam | Tool di autoediting video sviluppato su Mac | github.com/ThomasAvallone/calcettocam | README vuoto |
+| calcettocam | Comando Python con ffmpeg: incrocia i dati salvati dal Garmin durante la partita e taglia in automatico il video (girato con DJI Osmo Action 6 sulla testa) in corrispondenza dei lap inseriti dall'orologio | github.com/ThomasAvallone/calcettocam | Creato sul Mac: il codice potrebbe esistere solo in locale, la repo su GitHub ha solo un commit iniziale e il README è vuoto |
 | MoToM | Sistema di lavoro del canale YouTube MoToM: idee, script, trend. Repo privata | github.com/ThomasAvallone/MoToM | Ha un suo CLAUDE.md e le skill `motom-script`, `motom-trend` |
 
 ## Regole di lavoro
