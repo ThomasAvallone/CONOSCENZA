@@ -22,6 +22,15 @@ Questo repository contiene solo puntatori: niente dati aziendali, mail, chiavi o
 | Telefono (Motorola Edge 50 Ultra) | Pulizia, ottimizzazione e suono notifiche Switch (`Switch_Snap_v2.wav`) via ADB | Nessun codice, solo comandi adb su USB con debug USB | Fatto. Ricordare di scollegare e spegnere il debug USB |
 | Esperimenti | gemini.py, Ghidra/JDK (reverse), REA, chatbox multi-IA, ROM Gameboy→APK | `tools\` e sessioni di ottobre | Esperimenti |
 
+## Progetti su GitHub (account ThomasAvallone, usati da Mac e iPad)
+
+| Progetto | A cosa serve | Dove | Note |
+|---|---|---|---|
+| App-calcetto | App del calcetto (statistiche SIRO), con audit giornalieri in `audit-reports/` | github.com/ThomasAvallone/App-calcetto | README vuoto |
+| Motion-Graphics-Calcetto | Grafiche broadcast per i video di calcetto 5v5 per Final Cut Pro | github.com/ThomasAvallone/Motion-Graphics-Calcetto | `npm install`, poi `node partita.mjs partita.json`. Playwright e ffmpeg. Skill `calcetto-motion` |
+| calcettocam | Tool di autoediting video sviluppato su Mac | github.com/ThomasAvallone/calcettocam | README vuoto |
+| MoToM | Sistema di lavoro del canale YouTube MoToM: idee, script, trend. Repo privata | github.com/ThomasAvallone/MoToM | Ha un suo CLAUDE.md e le skill `motom-script`, `motom-trend` |
+
 ## Regole di lavoro
 - Rispondi in italiano.
 - Chiedi prima di scaricare, cancellare, installare o cambiare configurazioni.
