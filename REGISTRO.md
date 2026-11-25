@@ -20,7 +20,7 @@ Questo repository contiene solo puntatori: niente dati aziendali, mail, chiavi o
 |---|---|---|---|
 | Siro Calcetto / Scontro in Concessionaria | Giochi/artifact | artifact claude.ai `a2e8949b-3039-4e98-89a5-a617049cae3f` | Fatto |
 | Telefono (Motorola Edge 50 Ultra) | Pulizia, ottimizzazione e suono notifiche Switch (`Switch_Snap_v2.wav`) via ADB | Nessun codice, solo comandi adb su USB con debug USB | Fatto. Ricordare di scollegare e spegnere il debug USB |
-| Salute telefono | Scansione settimanale in sola lettura (spazio, batteria, RAM, cartelle pesanti, cache, app vecchie) con report e notifica | `C:\Users\thomas.avallone\tools\salute-telefono\` (`scansione.sh`) | Script pronto e provato dal PC via ADB. Manca Termux sul telefono per l'esecuzione autonoma (da fare con l'ok di Thomas) |
+| Salute telefono | Scansione settimanale in sola lettura (spazio, batteria, RAM, cartelle pesanti, cache, app vecchie) con report e notifica | `C:\Users\thomas.avallone\tools\salute-telefono\` (`scansione.sh`) | Attivo dal 25/11/2026: Termux + job settimanale sul telefono. Dopo ogni riavvio rifare `adb tcpip 5555` dal PC |
 | Esperimenti | gemini.py, Ghidra/JDK (reverse), REA, chatbox multi-IA, ROM Gameboy→APK | `tools\` e sessioni di ottobre | Esperimenti |
 
 ## Progetti su GitHub (account ThomasAvallone, usati da Mac e iPad)
