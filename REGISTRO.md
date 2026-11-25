@@ -20,7 +20,7 @@ Questo repository contiene solo puntatori: niente dati aziendali, mail, chiavi o
 |---|---|---|---|
 | Siro Calcetto / Scontro in Concessionaria | Giochi/artifact | artifact claude.ai `a2e8949b-3039-4e98-89a5-a617049cae3f` | Fatto |
 | Telefono (Motorola Edge 50 Ultra) | Pulizia, ottimizzazione e suono notifiche Switch (`Switch_Snap_v2.wav`) via ADB | Nessun codice, solo comandi adb su USB con debug USB | Fatto. Ricordare di scollegare e spegnere il debug USB |
-| Salute telefono | Scansione settimanale in sola lettura (spazio, batteria, RAM, cartelle pesanti, cache, app vecchie) con report e notifica | `C:\Users\thomas.avallone\tools\salute-telefono\` (`scansione.sh`) | Attivo dal 25/11/2026: Termux, scansione settimanale con storico CSV e controllo giornaliero allarmi (spazio < 500 GB, batteria calda). Grafici: `python grafico.py`. Briefing del mattino (job Termux 2, notifica 7-11 con meteo Bologna, `briefing.sh`). Dopo ogni riavvio rifare `adb tcpip 5555` dal PC |
+| Salute telefono | Scansione settimanale in sola lettura (spazio, batteria, RAM, cartelle pesanti, cache, app vecchie) con report e notifica | `C:\Users\thomas.avallone\tools\salute-telefono\` (`scansione.sh`) | Attivo dal 25/11/2026: Termux, scansione settimanale con storico CSV e controllo giornaliero allarmi (spazio < 500 GB, batteria calda). Grafici: `python grafico.py`. Briefing meteo Bologna (job Termux 2: 7-8 oggi, 20-22 domani) e allarmi (job 1) girano solo in Termux, senza ADB. Dopo un riavvio `adb tcpip 5555` serve solo per la scansione settimanale completa |
 | Esperimenti | gemini.py, Ghidra/JDK (reverse), REA, chatbox multi-IA, ROM Gameboy→APK | `tools\` e sessioni di ottobre | Esperimenti |
 
 ## Progetti su GitHub (account ThomasAvallone, usati da Mac e iPad)
